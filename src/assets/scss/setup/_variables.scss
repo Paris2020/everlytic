@@ -1,0 +1,22 @@
+:root {
+	// fonts
+	--font-weight-light: 		300;
+	--font-weight-book:      	normal;
+	--font-weight-medium: 		500;
+	--font-weight-bold: 	    bold;
+	--font-weight-black:        900;
+
+	// colors
+	--color-white: 				#FFFFFF;
+	--color-black: 				#000000;
+	--color-dark-grey: 			#4C4F64;
+	--color-grey: 				#848185;
+	--color-red: 				#DC143C;
+	--color-dark-blue: 			#454e6e;
+
+	--main-bg: 					rgb(120,135,190);
+	--link-hover: 				#8fb0c8;
+	--gradient-header: 			linear-gradient(160deg, rgba(120,135,190,1) 0%, rgb(143, 176, 200) 50%, rgb(163, 214, 209) 100%);
+	--gradient-footer: 			linear-gradient(90deg, rgba(120,135,190,1) 0%, rgb(143, 176, 200) 35%, rgba(162,213,208,1) 100%);
+	
+}

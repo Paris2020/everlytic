@@ -1,0 +1,24 @@
+.footer {
+    .wrapper {
+
+        a {
+            font-size: 1.4rem;
+            line-height: 1.8rem;
+            color: var(--color-white);
+        }
+
+        .footer-top {
+            ul {
+                li {
+                    a {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .footer-bottom {
+            border-top: .1rem solid var(--color-white);
+        }
+    }
+}
