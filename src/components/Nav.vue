@@ -23,7 +23,7 @@
 <template>
     <nav class="nav" :class="[{'isExpanded': state.isExpanded}, {'sticky': state.scrollPos > 70}]">
         <div class="wrapper">
-            <a href="/" class="logo"><img class="logo" src="/images/logo.png" width="150" alt="Netflix logo"></a>
+            <a href="/" class="logo"><img class="logo" src="/images/logo.png" width="150" alt="Netflix logo" /></a>
             <ul class="menu">
                 <li><a href="#" v-scroll-to="'.home'">Home</a></li>
                 <li><a href="#" v-scroll-to="'.movies'">Movies</a></li>
@@ -33,7 +33,7 @@
             <div class="profile">
                 <icon name="search" />
                 <a href="#" class="profile-item">
-                    <img src="/images/avatar-female-dark.png" width="50" alt="Profile Picture">
+                    <img src="/images/avatar-female-dark.png" width="50" alt="Profile Picture" />
                     <icon name="dropdown" />
                 </a>
             </div>
