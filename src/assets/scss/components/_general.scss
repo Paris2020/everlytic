@@ -142,40 +142,24 @@ ul,ol {
 	border: none;
 	font-size: 1.6rem;
 	line-height: 2rem;
-	background-color: var(--main-bg);
 	transition: all ease-in-out .3s;
-	box-shadow: var(--color-dark-blue) .4rem .4rem 0 0;
 
 	&.small {
         font-weight: var(--font-weight-bold);
         padding: 0.5rem;
         text-transform: uppercase;
-        width: 14rem;
-	}
-
-	&.large {
-		width: 20rem;
-		padding: 2rem 0;
-		text-transform: uppercase;
-		font-weight: var(--font-weight-bold);
-		color: var(--color-white);
+        width: 16rem;
 	}
 
 	&.unclear {
-
 		color: var(--color-dark-blue);
+		background-color: var(--color-red);
+	}
+
+	&.clear {
+		color: var(--color-white);
 		background-color: transparent;
-		border: .2rem solid var(--color-dark-blue);
-
-		&:hover {
-			/*color: var(--color-dark-blue);
-			background-color: transparent;
-			border: .2rem solid var(--color-dark-blue);*/
-
-			color: var(--color-white);
-			background-color: var(--color-dark-blue);
-			border: .2rem solid var(--color-dark-blue);
-		}
+		border: .1rem solid var(--color-white);
 	}
 }
 

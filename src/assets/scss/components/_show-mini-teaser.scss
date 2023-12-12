@@ -1,9 +1,10 @@
-.show-teaser {
+.mini-teaser {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 20rem;
+    cursor: pointer;
 
     video {
         width: 100%;
