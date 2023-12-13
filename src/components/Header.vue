@@ -1,28 +1,29 @@
 <script setup>
     import { reactive } from "vue"
-    import ShowMainTeaser from "../components/global/ShowMainTeaser.vue"
     import ShowMiniTeaser from "../components/global/ShowMiniTeaser.vue"
+    import ShowMainTeaser from "../components/global/ShowMainTeaser.vue"
+    
 
     const state = reactive({
         showTeasers: [
             {
-                id: 0,
-                src: "https://www.youtube.com/watch?v=nhC8AG8cwcc",
+                id: "nhC8AG8cwcc",
+                src: "https://www.youtube.com/watch?v=",
                 title: "Fool Me Once"
             },
             {
-                id: 1,
-                src: "https://www.youtube.com/watch?v=oU8f8QrUCOM",
+                id: "oU8f8QrUCOM",
+                src: "https://www.youtube.com/watch?v=",
                 title: "The Brothers Sun"
             },
             {
-                id: 2,
-                src: "https://www.youtube.com/watch?v=Di310WS8zLk",
+                id: "Di310WS8zLk",
+                src: "https://www.youtube.com/watch?v=",
                 title: "Wednesday Addams"
             },
             {
-                id: 3,
-                src: "https://www.youtube.com/watch?v=gpv7ayf_tyE",
+                id: "gpv7ayf_tyE",
+                src: "https://www.youtube.com/watch?v=",
                 title: "Bridgerton"
             },
         ]

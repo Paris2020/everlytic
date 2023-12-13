@@ -11,16 +11,22 @@
         <div class="wrapper">
             <div class="footer-top">
                 <h3>Questions? Call <a href="tel:0 801-000-723">0 801-000-723</a></h3>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Accounts</a></li>
-                    <li><a href="#">Media Center</a></li>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Buy Gift Cards</a></li>
-                    <li><a href="#">Redeem Gift Vouchers</a></li>
-                    <li><a href="#">Ways to Watch</a></li>
-                </ul>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Accounts</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Media Center</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Buy Gift Cards</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Redeem Gift Vouchers</a></li>
+                        <li><a href="#">Ways to Watch</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="footer-bottom">
                 <p class="copyright">
