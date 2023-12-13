@@ -503,6 +503,18 @@ vite@^5.0.0:
   optionalDependencies:
     fsevents "~2.3.3"
 
+vue-demi@latest:
+  version "0.14.6"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.14.6.tgz#dc706582851dc1cdc17a0054f4fec2eb6df74c92"
+  integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
+
+vue-lite-youtube-embed@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vue-lite-youtube-embed/-/vue-lite-youtube-embed-1.2.1.tgz#05980a08361ee67c700e23a500d69e9dba210c3c"
+  integrity sha512-uBc0IJtb7gskQTKFJYMKbgW51EPSEetLqjiYRQ+X20UAYDXN42MqaiSNyPnJ8gN+rYexuS2UQRMaRZq9rVPgIw==
+  dependencies:
+    vue-demi latest
+
 vue-scrollto@^2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.20.0.tgz#3ba52239a62710c97003d12d4393f1f3393cd5cc"

@@ -4,31 +4,22 @@
 
     const state = reactive({
         isExpanded: false,
-        scrollPos: null
     })
 
     const toggle = () => {
 		state.isExpanded = !state.isExpanded;
 	}
-
-    const updateScroll = () => {
-        state.scrollPos = window.scrollY;
-    }
-
-    onMounted(() => {
-        window.addEventListener('scroll', updateScroll)
-    });
 </script>
 
 <template>
-    <nav class="nav" :class="[{'isExpanded': state.isExpanded}, {'sticky': state.scrollPos > 70}]">
+    <nav class="nav" :class="{'isExpanded': state.isExpanded}">
         <div class="wrapper">
             <a href="/" class="logo"><img class="logo" src="/images/logo.png" width="150" alt="Netflix logo" /></a>
             <ul class="menu">
-                <li><a href="#" v-scroll-to="'.home'">Home</a></li>
-                <li><a href="#" v-scroll-to="'.movies'">Movies</a></li>
-                <li><a href="#" v-scroll-to="'.shows'">TV Shows</a></li>
-                <li><a href="#" v-scroll-to="'.list'">My List</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">My List</a></li>
             </ul>
             <div class="profile">
                 <icon name="search" />
