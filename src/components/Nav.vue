@@ -24,7 +24,7 @@
             <div class="profile">
                 <icon name="search" />
                 <a href="#" class="profile-item">
-                    <img src="/images/avatar-female-dark.png" width="50" alt="Profile Picture" />
+                    <img src="/images/avatar-female-dark.png" width="40" alt="Profile Picture" />
                     <icon name="dropdown" />
                 </a>
             </div>
